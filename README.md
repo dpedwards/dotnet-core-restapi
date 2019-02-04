@@ -96,10 +96,10 @@ For this project you need to install .NET Core 2.1 Framework and MySQL/MariaDB o
 8. Paste in the following JSON structure and press the `Try it out!` button.
 
  ```yaml
-   json structure: {
-                    "userName": "TestUser",
-                    "password": "P455w0rd"
-                   }
+               {
+                 "userName": "TestUser",
+                 "password": "P455w0rd"
+               }
    ```
 
 9. Next copy the Bearer token string inside from the response body element like in this example in the square brackets --> `"token:""[eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6I...]"`.
@@ -110,7 +110,7 @@ For this project you need to install .NET Core 2.1 Framework and MySQL/MariaDB o
 
 12. Finally authenticate with pushing the grey `Auhtorize` button.
 
-If you need some more help please feel free to message me. Happy coding! :smile:
+If you need some more help please feel free to message me. Happy coding! 
 
 
 ## Usage
@@ -139,7 +139,7 @@ Template documentation and demo pages can be found in the [`/docs`](docs) if sub
 
 ### Creator
 
-**Davain Pablo Edwrads**
+**Davain Pablo Edwards**
 
 - <https://soon.com>
 - <https://twitter.com/soon>

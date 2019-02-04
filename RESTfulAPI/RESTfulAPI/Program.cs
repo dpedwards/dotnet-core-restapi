@@ -36,7 +36,7 @@ namespace RESTfulAPI
                 .CreateDefaultBuilder(args)
                 .UseKestrel(options =>
                 {
-                    options.Listen(IPAddress.Any, 5000);
+                    //options.Listen(IPAddress.Any, 5000);
                     options.Listen(IPAddress.Any, 5001, listenOptions =>
                     {
                         listenOptions.UseHttps(cert);
