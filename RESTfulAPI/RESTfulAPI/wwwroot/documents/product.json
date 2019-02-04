@@ -1,0 +1,16 @@
+{
+	  
+	    "supplier_Ids": "2;7",
+        "product_Code": "Test product_code",
+        "product_Name": "Test product_name",
+        "description": "Test description",
+        "standard_Cost": 11.0000,
+        "list_Price": 12.0000,
+        "reorder_Level": 10,
+        "target_Level": 300,
+        "quantity_Per_Unit": "Test quantity_per_unit",
+        "discontinued": 0,
+        "minimum_Reorder_Quantity": 20,
+        "category": "Candy",
+        "attachments": null
+}

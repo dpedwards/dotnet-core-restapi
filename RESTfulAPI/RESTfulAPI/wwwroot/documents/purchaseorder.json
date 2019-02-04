@@ -1,0 +1,17 @@
+{
+        "supplier_Id": 5,
+        "created_By": 2,
+        "submitted_Date": "2017-11-30 00:00:00",
+        "creation_Date": "2017-11-31 00:00:00",
+        "status_Id": 2,
+        "expected_Date": null,
+        "shipping_Fee": 0.0000,
+        "taxes": 0.0000,
+        "payment_Date": null,
+        "payment_Amount": 0.0000,
+        "payment_Method": null,
+        "notes": "Purchase generated based on Order #55",
+        "approved_By": 2,
+        "approved_Date": "2017-11-30 00:00:00",
+        "submitted_By": 2
+}

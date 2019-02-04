@@ -1,0 +1,11 @@
+1:
+dotnet publish -r linux-arm
+
+2:
+dotnet ef migrations add testMigration
+dotnet ef database update 
+
+3: 
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet restore
+

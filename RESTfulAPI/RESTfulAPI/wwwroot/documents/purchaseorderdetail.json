@@ -1,0 +1,9 @@
+{
+	 "purchase_Order_Id": 90,
+        "product_Id": 1,
+        "quantity": 50.0000,
+        "unit_Cost": 10.0000,
+        "date_Received": "2017-11-30 00:00:00",
+        "posted_To_Inventory": 1,
+        "inventory_Id": 54
+}

@@ -1,0 +1,3055 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RESTfulAPI</name>
+    </assembly>
+    <members>
+        <member name="T:RESTfulAPI.Controllers.CustomerController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.CustomerController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.CustomerController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.CustomerController.GetCustomersAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.CustomerController.GetCustomerAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.CustomerController.CreateCustomerAsync(RESTfulAPI.ViewModels.CustomerViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.CustomerController.UpdateCustomerAsync(System.Int32,RESTfulAPI.ViewModels.CustomerViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.CustomerController.DeleteCustomerAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.EmployeeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.EmployeeController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.EmployeeController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.EmployeeController.GetEmployeesAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.EmployeeController.GetEmployeeAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.EmployeeController.CreateEmployeeAsync(RESTfulAPI.ViewModels.EmployeeViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.EmployeeController.UpdateEmployeeAsync(System.Int32,RESTfulAPI.ViewModels.EmployeeViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.EmployeeController.DeleteEmployeeAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.EmployeePrivilegeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.EmployeePrivilegeController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.EmployeePrivilegeController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.EmployeePrivilegeController.GetEmployeePrivilegesAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.EmployeePrivilegeController.GetEmployeePrivilegeAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.EmployeePrivilegeController.CreateEmployeePrivilegeAsync(RESTfulAPI.ViewModels.EmployeePrivilegeViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.EmployeePrivilegeController.UpdateEmployeePrivilegeAsync(System.Int32,RESTfulAPI.ViewModels.EmployeePrivilegeViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.EmployeePrivilegeController.DeleteEmployeePrivilegeAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.FileUploadController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.FileUploadController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.FtpSettings},Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings},Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.WindowsSettings})">
+            <summary>
+            
+            </summary>
+            <param name="hostingEnvironment"></param>
+            <param name="ftpSettings"></param>
+            <param name="linuxSettings"></param>
+            <param name="windowsSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.FileUploadController.UploadFilesAsync(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            
+            </summary>
+            <param name="files"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.FileUploadController.closeRequestStreamAsync(System.IO.Stream)">
+            <summary>
+            Background worker for closing request stream
+            </summary>
+            <param name="requestStream"></param>
+            <remarks>This is the method that actually triggers the writing to the server
+            of the data in the FTP stream.  This blocks the UI thread when called synchronously.
+            </remarks>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.FileUploadController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.HomeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.HomeController.#ctor(Microsoft.Extensions.FileProviders.IFileProvider,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="fileProvider"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.HomeController.Index">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.HomeController.UploadFile(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.HomeController.UploadFiles(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            
+            </summary>
+            <param name="files"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.HomeController.UploadFileViaModel(RESTfulAPI.Model.Home.FileInputModel)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.HomeController.Files">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.HomeController.Download(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="filename"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.HomeController.GetMimeTypes">
+            <summary>
+            https://wiki.selfhtml.org/wiki/MIME-Type/%C3%9Cbersicht
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.HomeController.ErrorPage">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.HomeController.About">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.HomeController.Contact">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.HomeController.Error">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.InventoryTransactionController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InventoryTransactionController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InventoryTransactionController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InventoryTransactionController.GetInventoryTransactionsAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InventoryTransactionController.GetInventoryTransactionAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InventoryTransactionController.CreateInventoryTransactionAsync(RESTfulAPI.ViewModels.InventoryTransactionViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InventoryTransactionController.UpdateInventoryTransactionAsync(System.Int32,RESTfulAPI.ViewModels.InventoryTransactionViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InventoryTransactionController.DeleteInventoryTransactionAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.InventoryTransactionTypeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InventoryTransactionTypeController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InventoryTransactionTypeController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InventoryTransactionTypeController.GetInventoryTransactionTypesAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InventoryTransactionTypeController.GetInventoryTransactionTypeAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InventoryTransactionTypeController.CreateInventoryTransactionTypeAsync(RESTfulAPI.ViewModels.InventoryTransactionTypeViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InventoryTransactionTypeController.UpdateInventoryTransactionTypeAsync(System.Int32,RESTfulAPI.ViewModels.InventoryTransactionTypeViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InventoryTransactionTypeController.DeleteInventoryTransactionTypeAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.InvoiceController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InvoiceController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InvoiceController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InvoiceController.GetInvoicesAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InvoiceController.GetInvoiceAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InvoiceController.CreateInvoiceAsync(RESTfulAPI.ViewModels.InvoiceViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InvoiceController.UpdateInvoiceAsync(System.Int32,RESTfulAPI.ViewModels.InvoiceViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.InvoiceController.DeleteInvoiceAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.OrderController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderController.GetOrdersAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderController.GetOrderAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderController.CreateOrderAsync(RESTfulAPI.ViewModels.OrderViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderController.UpdateOrderAsync(System.Int32,RESTfulAPI.ViewModels.OrderViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderController.DeleteOrderAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.OrderDetailController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderDetailController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderDetailController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderDetailController.GetOrderDetailsAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderDetailController.GetOrderDetailAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderDetailController.CreateOrderDetailAsync(RESTfulAPI.ViewModels.OrderDetailViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderDetailController.UpdateOrderDetailAsync(System.Int32,RESTfulAPI.ViewModels.OrderDetailViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderDetailController.DeleteOrderDetailAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.OrderDetailStatusController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderDetailStatusController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderDetailStatusController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderDetailStatusController.GetOrderDetailStatussAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderDetailStatusController.GetOrderDetailStatusAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderDetailStatusController.CreateOrderDetailStatusAsync(RESTfulAPI.ViewModels.OrderDetailStatusViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderDetailStatusController.UpdateOrderDetailStatusAsync(System.Int32,RESTfulAPI.ViewModels.OrderDetailStatusViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderDetailStatusController.DeleteOrderDetailStatusAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.OrderStatusController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderStatusController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderStatusController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderStatusController.GetOrderStatuusAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderStatusController.GetOrderStatusAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderStatusController.CreateOrderStatusAsync(RESTfulAPI.ViewModels.OrderStatusViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderStatusController.UpdateOrderStatusAsync(System.Int32,RESTfulAPI.ViewModels.OrderStatusViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderStatusController.DeleteOrderStatusAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.OrderTaxStatusController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderTaxStatusController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderTaxStatusController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderTaxStatusController.GetOrderTaxStatusesAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderTaxStatusController.GetOrderTaxStatusAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderTaxStatusController.CreateOrderTaxStatusAsync(RESTfulAPI.ViewModels.OrderTaxStatusViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderTaxStatusController.UpdateOrderTaxStatusAsync(System.Int32,RESTfulAPI.ViewModels.OrderTaxStatusViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.OrderTaxStatusController.DeleteOrderTaxStatusAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.PrivilegeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PrivilegeController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PrivilegeController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PrivilegeController.GetPrivilegesAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PrivilegeController.GetPrivilegeAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PrivilegeController.CreatePrivilegeAsync(RESTfulAPI.ViewModels.PrivilegeViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PrivilegeController.UpdatePrivilegeAsync(System.Int32,RESTfulAPI.ViewModels.PrivilegeViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PrivilegeController.DeletePrivilegeAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.ProductController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.ProductController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.ProductController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.ProductController.GetProductsAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.ProductController.GetProductAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.ProductController.CreateProductAsync(RESTfulAPI.ViewModels.ProductViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.ProductController.UpdateProductAsync(System.Int32,RESTfulAPI.ViewModels.ProductViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.ProductController.DeleteProductAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.PurchaseOrderController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderController.GetPurchaseOrdersAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderController.GetPurchaseOrderAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderController.CreatePurchaseOrderAsync(RESTfulAPI.ViewModels.PurchaseOrderViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderController.UpdatePurchaseOrderAsync(System.Int32,RESTfulAPI.ViewModels.PurchaseOrderViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderController.DeletePurchaseOrderAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.PurchaseOrderDetailController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderDetailController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderDetailController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderDetailController.GetPurchaseOrderDetailsAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderDetailController.GetPurchaseOrderDetailAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderDetailController.CreatePurchaseOrderDetailAsync(RESTfulAPI.ViewModels.PurchaseOrderDetailViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderDetailController.UpdatePurchaseOrderDetailAsync(System.Int32,RESTfulAPI.ViewModels.PurchaseOrderDetailViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderDetailController.DeletePurchaseOrderDetailAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.PurchaseOrderStatusController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderStatusController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderStatusController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderStatusController.GetPurchaseOrderStatusesAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderStatusController.GetPurchaseOrderStatusAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderStatusController.CreatePurchaseOrderStatusAsync(RESTfulAPI.ViewModels.PurchaseOrderStatusViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderStatusController.UpdatePurchaseOrderStatusAsync(System.Int32,RESTfulAPI.ViewModels.PurchaseOrderStatusViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.PurchaseOrderStatusController.DeletePurchaseOrderStatusAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.SalesReportController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.SalesReportController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.SalesReportController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.SalesReportController.GetSalesReportsAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.SalesReportController.CreateSalesReportAsync(RESTfulAPI.ViewModels.SalesReportViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.ShipperController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.ShipperController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.ShipperController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.ShipperController.GetShippersAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.ShipperController.GetShipperAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.ShipperController.CreateShipperAsync(RESTfulAPI.ViewModels.ShipperViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.ShipperController.UpdateShipperAsync(System.Int32,RESTfulAPI.ViewModels.ShipperViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.ShipperController.DeleteShipperAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.StringsController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.StringsController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.StringsController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.StringsController.GetStringssAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.StringsController.GetStringsAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.StringsController.CreateStringsAsync(RESTfulAPI.ViewModels.StringsViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.StringsController.UpdateStringsAsync(System.Int32,RESTfulAPI.ViewModels.StringsViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.StringsController.DeleteStringsAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.TokenController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.TokenController.#ctor(RESTfulAPI.TokenAuthOptions,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="t"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.TokenController.Post(RESTfulAPI.Core.EntityLayer.User)">
+            <summary>
+            
+            </summary>
+            <param name="auth"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Controllers.UserController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.UserController.#ctor(RESTfulAPI.Core.DataLayer.IRESTfulAPI_Repository,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings})">
+            <summary>
+            
+            </summary>
+            <param name="repository"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="linuxSettings"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.UserController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.UserController.GetUsersAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.UserController.GetUserAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.UserController.CreateUserAsync(RESTfulAPI.ViewModels.UserViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.UserController.UpdateUserAsync(System.Int32,RESTfulAPI.ViewModels.UserViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Controllers.UserController.DeleteUserAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.CustomerViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.CustomerViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.Customer)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.CustomerViewModelMapper.ToEntity(RESTfulAPI.ViewModels.CustomerViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.EmployeePrivilegeViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.EmployeePrivilegeViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.EmployeePrivilege)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.EmployeePrivilegeViewModelMapper.ToEntity(RESTfulAPI.ViewModels.EmployeePrivilegeViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.EmployeeViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.EmployeeViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.Employee)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.EmployeeViewModelMapper.ToEntity(RESTfulAPI.ViewModels.EmployeeViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.InventoryTransactionTypeViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.InventoryTransactionTypeViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.InventoryTransactionType)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.InventoryTransactionTypeViewModelMapper.ToEntity(RESTfulAPI.ViewModels.InventoryTransactionTypeViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.InventoryTransactionViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.InventoryTransactionViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.InventoryTransaction)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.InventoryTransactionViewModelMapper.ToEntity(RESTfulAPI.ViewModels.InventoryTransactionViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.InvoiceViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.InvoiceViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.Invoice)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.InvoiceViewModelMapper.ToEntity(RESTfulAPI.ViewModels.InvoiceViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.OrderDetailStatusViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.OrderDetailStatusViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.OrderDetailStatus)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.OrderDetailStatusViewModelMapper.ToEntity(RESTfulAPI.ViewModels.OrderDetailStatusViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.OrderDetailViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.OrderDetailViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.OrderDetail)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.OrderDetailViewModelMapper.ToEntity(RESTfulAPI.ViewModels.OrderDetailViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.OrderStatusViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.OrderStatusViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.OrderStatus)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.OrderStatusViewModelMapper.ToEntity(RESTfulAPI.ViewModels.OrderStatusViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.OrderTaxStatusTaxStatusViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.OrderTaxStatusTaxStatusViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.OrderTaxStatus)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.OrderTaxStatusTaxStatusViewModelMapper.ToEntity(RESTfulAPI.ViewModels.OrderTaxStatusViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.OrderViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.OrderViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.Order)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.OrderViewModelMapper.ToEntity(RESTfulAPI.ViewModels.OrderViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.PrivilegeViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.PrivilegeViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.Privilege)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.PrivilegeViewModelMapper.ToEntity(RESTfulAPI.ViewModels.PrivilegeViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.ProductViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.ProductViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.Product)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.ProductViewModelMapper.ToEntity(RESTfulAPI.ViewModels.ProductViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.PurchaseOrderDetailViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.PurchaseOrderDetailViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.PurchaseOrderDetail)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.PurchaseOrderDetailViewModelMapper.ToEntity(RESTfulAPI.ViewModels.PurchaseOrderDetailViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.PurchaseOrderStatusViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.PurchaseOrderStatusViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.PurchaseOrderStatus)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.PurchaseOrderStatusViewModelMapper.ToEntity(RESTfulAPI.ViewModels.PurchaseOrderStatusViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.PurchaseOrderViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.PurchaseOrderViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.PurchaseOrder)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.PurchaseOrderViewModelMapper.ToEntity(RESTfulAPI.ViewModels.PurchaseOrderViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.ResponseExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.ResponseExtensions.ToHttpResponse``1(RESTfulAPI.Responses.IListModelResponse{``0})">
+            <summary>
+            
+            </summary>
+            <typeparam name="TModel"></typeparam>
+            <param name="response"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.ResponseExtensions.ToHttpResponse``1(RESTfulAPI.Responses.ISingleModelResponse{``0})">
+            <summary>
+            
+            </summary>
+            <typeparam name="TModel"></typeparam>
+            <param name="response"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.SalesReportViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.SalesReportViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.SalesReport)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.SalesReportViewModelMapper.ToEntity(RESTfulAPI.ViewModels.SalesReportViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.ShipperViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.ShipperViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.Shipper)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.ShipperViewModelMapper.ToEntity(RESTfulAPI.ViewModels.ShipperViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.StringsViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.StringsViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.Strings)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.StringsViewModelMapper.ToEntity(RESTfulAPI.ViewModels.StringsViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.SupplierViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.SupplierViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.Supplier)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.SupplierViewModelMapper.ToEntity(RESTfulAPI.ViewModels.SupplierViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Extensions.UserViewModelMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.UserViewModelMapper.ToViewModel(RESTfulAPI.Core.EntityLayer.User)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Extensions.UserViewModelMapper.ToEntity(RESTfulAPI.ViewModels.UserViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Models.ErrorViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Models.ErrorViewModel.RequestId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Models.ErrorViewModel.ShowRequestId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.Models.Home.FileDetails">
+            <summary>
+            
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Models.Home.FileDetails.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Models.Home.FileDetails.Path">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.Models.Home.FilesViewModel">
+            <summary>
+            
+            File download
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Models.Home.FilesViewModel.Files">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.Models.Home.IFormFileExtensions">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:RESTfulAPI.Models.Home.IFormFileExtensions.GetFilename(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Models.Home.IFormFileExtensions.GetFileStreamAsync(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RESTfulAPI.Models.Home.IFormFileExtensions.GetFileArrayAsync(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.Model.Home.FileInputModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Model.Home.FileInputModel.FileToUpload">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.Pages.AboutModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Pages.AboutModel.Message">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Pages.AboutModel.RouteDataText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Pages.AboutModel.OnGet">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.Pages.ContactModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Pages.ContactModel.Message">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Pages.ContactModel.OnGet">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.Pages.ErrorModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Pages.ErrorModel.RequestId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Pages.ErrorModel.ShowRequestId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Pages.ErrorModel.OnGet">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.Pages.IndexModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Pages.IndexModel.OnGet">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="T:RESTfulAPI.Responses.IListModelResponse`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TModel"></typeparam>
+        </member>
+        <member name="P:RESTfulAPI.Responses.IListModelResponse`1.PageSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Responses.IListModelResponse`1.PageNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Responses.IListModelResponse`1.Model">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.Responses.IResponse">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Responses.IResponse.Info">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Responses.IResponse.DidError">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Responses.IResponse.ErrorMessage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.Responses.ISingleModelResponse`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TModel"></typeparam>
+        </member>
+        <member name="P:RESTfulAPI.Responses.ISingleModelResponse`1.Model">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.Responses.ListModelResponse`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TModel"></typeparam>
+        </member>
+        <member name="P:RESTfulAPI.Responses.ListModelResponse`1.DidError">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Responses.ListModelResponse`1.ErrorMessage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Responses.ListModelResponse`1.Info">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Responses.ListModelResponse`1.Model">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Responses.ListModelResponse`1.PageNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Responses.ListModelResponse`1.PageSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.Responses.SingleModelResponse`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TModel"></typeparam>
+        </member>
+        <member name="P:RESTfulAPI.Responses.SingleModelResponse`1.DidError">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Responses.SingleModelResponse`1.ErrorMessage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Responses.SingleModelResponse`1.Info">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Responses.SingleModelResponse`1.Model">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.TokenAuthOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.TokenAuthOptions.Issuer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.TokenAuthOptions.Audience">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.TokenAuthOptions.SigningCredentials">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Startup._tokenAuth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.DatabaseSettings},Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.SwaggerSettings})">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+            <param name="databaseSettings"></param>
+            <param name="hostingEnvironment"></param>
+            <param name="swaggerSettings"></param>
+        </member>
+        <member name="P:RESTfulAPI.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:RESTfulAPI.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <param name="loggerFactory"></param>
+        </member>
+        <member name="T:RESTfulAPI.SwaggerServiceExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RESTfulAPI.SwaggerServiceExtensions.AddSwaggerDocumentation(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.CustomerViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.Company">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.Last_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.First_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.Email_Address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.Job_Title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.Business_Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.Home_Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.Mobile_Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.Fax_Number">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.Address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.City">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.State_Province">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.Zip_Postal_Code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.Country_Region">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.Web_Page">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.Notes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.CustomerViewModel.Attachments">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.EmployeePrivilegeViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeePrivilegeViewModel.Employee_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeePrivilegeViewModel.Privilege_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.EmployeeViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.Company">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.Last_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.First_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.Email_Address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.Job_Title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.Business_Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.Home_Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.Mobile_Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.Fax_Number">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.Address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.City">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.State_Province">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.Zip_Postal_Code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.Country_Region">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.Web_Page">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.Notes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.EmployeeViewModel.Attachments">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.InventoryTransactionTypeViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InventoryTransactionTypeViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InventoryTransactionTypeViewModel.Type_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.InventoryTransactionViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InventoryTransactionViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InventoryTransactionViewModel.Transaction_Type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InventoryTransactionViewModel.Transaction_Created_Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InventoryTransactionViewModel.Transaction_Modified_Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InventoryTransactionViewModel.Product_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InventoryTransactionViewModel.Quantity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InventoryTransactionViewModel.Purchase_Order_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InventoryTransactionViewModel.Customer_Order_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InventoryTransactionViewModel.Comments">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.InvoiceViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InvoiceViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InvoiceViewModel.Order_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InvoiceViewModel.Invoice_Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InvoiceViewModel.Due_Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InvoiceViewModel.Tax">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InvoiceViewModel.Shipping">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.InvoiceViewModel.Amount_Due">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.OrderDetailStatusViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderDetailStatusViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderDetailStatusViewModel.Status_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.OrderDetailViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderDetailViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderDetailViewModel.Order_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderDetailViewModel.Product_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderDetailViewModel.Quantity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderDetailViewModel.Unit_Price">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderDetailViewModel.Discount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderDetailViewModel.Status_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderDetailViewModel.Date_Allocated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderDetailViewModel.Purchase_Order_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderDetailViewModel.Inventory_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.OrderStatusViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderStatusViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderStatusViewModel.Status_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.OrderTaxStatusViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderTaxStatusViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderTaxStatusViewModel.Tax_Status_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.OrderViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Employee_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Customer_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Order_Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Shipped_Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Shipper_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Ship_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Ship_Address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Ship_City">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Ship_State_Province">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Ship_Zip_Postal_Code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Ship_Country_Region">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Shipping_Fee">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Taxes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Payment_Type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Paid_Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Notes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Tax_Rate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Tax_Status_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.OrderViewModel.Status_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.PrivilegeViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PrivilegeViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PrivilegeViewModel.Privilege_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.ProductViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ProductViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ProductViewModel.Supplier_Ids">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ProductViewModel.Product_Code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ProductViewModel.Product_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ProductViewModel.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ProductViewModel.Standard_Cost">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ProductViewModel.List_Price">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ProductViewModel.Reorder_Level">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ProductViewModel.Target_Level">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ProductViewModel.Quantity_Per_Unit">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ProductViewModel.Discontinued">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ProductViewModel.Minimum_Reorder_Quantity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ProductViewModel.Category">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ProductViewModel.Attachments">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.PurchaseOrderDetailViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderDetailViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderDetailViewModel.Purchase_Order_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderDetailViewModel.Product_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderDetailViewModel.Quantity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderDetailViewModel.Unit_Cost">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderDetailViewModel.Date_Received">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderDetailViewModel.Posted_To_Inventory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderDetailViewModel.Inventory_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.PurchaseOrderStatusViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderStatusViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderStatusViewModel.Status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.PurchaseOrderViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Supplier_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Created_By">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Submitted_Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Creation_Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Status_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Expected_Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Shipping_Fee">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Taxes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Payment_Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Payment_Amount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Payment_Method">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Notes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Approved_By">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Approved_Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.PurchaseOrderViewModel.Submitted_By">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.SalesReportViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SalesReportViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SalesReportViewModel.Group_By">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SalesReportViewModel.Display">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SalesReportViewModel.Title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SalesReportViewModel.Filter_Row_Source">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SalesReportViewModel.Default">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.ShipperViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.Company">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.Last_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.First_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.Email_Address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.Job_Title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.Business_Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.Home_Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.Mobile_Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.Fax_Number">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.Address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.City">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.State_Province">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.Zip_Postal_Code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.Country_Region">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.Web_Page">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.Notes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.ShipperViewModel.Attachments">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.StringsViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.StringsViewModel.String_Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.StringsViewModel.String_Data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.SupplierViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.Company">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.Last_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.First_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.Email_Address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.Job_Title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.Business_Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.Home_Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.Mobile_Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.Fax_Number">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.Address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.City">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.State_Province">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.Zip_Postal_Code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.Country_Region">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.Web_Page">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.Notes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.SupplierViewModel.Attachments">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RESTfulAPI.ViewModels.UserViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.UserViewModel.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.UserViewModel.UserName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.ViewModels.UserViewModel.Password">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

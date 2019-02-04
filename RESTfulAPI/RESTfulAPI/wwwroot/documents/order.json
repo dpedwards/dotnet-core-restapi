@@ -1,0 +1,23 @@
+{
+	    
+	    "employee_Id": 2,
+	    "customer_Id": 7,
+	    "order_Date": "2017-11-30 14:49:53",
+        "shipped_Date": "2017-11-30 14:49:53",
+        "shipper_Id": 3,
+        "ship_name": "Test ship_name",
+        "ship_address": "Test ship_address",
+        "ship_City": "Test ship_city",
+        "ship_state_province": "Test ship_state_province",
+		"ship_zip_postal_code": "Test ship_zip_postal_code",
+		"ship_country_region": "Test ship_country_region",
+		"shipping_fee": 10.00,
+		"taxes": 19.00,
+		"payment_type": "Test payment_type",
+		"paid_Date": "2017-11-30 00:00:00",
+        "notes": "Test notes",
+        "tax_Rate": 0,
+        "tax_Status_Id": null,
+        "status_Id": 3
+
+}

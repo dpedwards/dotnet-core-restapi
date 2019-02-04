@@ -1,0 +1,112 @@
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.deps.json
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.runtimeconfig.json
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.runtimeconfig.dev.json
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.dll
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.pdb
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.csproj.CoreCompileInputs.cache
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.AssemblyInfoInputs.cache
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.AssemblyInfo.cs
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.dll
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.pdb
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.Core.dll
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.Core.pdb
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.deps.json
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.runtimeconfig.json
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.runtimeconfig.dev.json
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.dll
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.pdb
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.Core.dll
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.Core.pdb
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.csprojResolveAssemblyReference.cache
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.csproj.CoreCompileInputs.cache
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.AssemblyInfoInputs.cache
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.AssemblyInfo.cs
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.dll
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.pdb
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.deps.json
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.runtimeconfig.json
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.runtimeconfig.dev.json
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.dll
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.pdb
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.Core.dll
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.Core.pdb
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.csprojResolveAssemblyReference.cache
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.csproj.CoreCompileInputs.cache
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.AssemblyInfoInputs.cache
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.AssemblyInfo.cs
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.dll
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.pdb
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\de\RESTfulAPI.resources.dll
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\en\RESTfulAPI.resources.dll
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Controllers.HelloWorldApiController.de.resources
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Controllers.HelloWorldApiController.en.resources
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.csproj.GenerateResource.Cache
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\de\RESTfulAPI.resources.dll
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\en\RESTfulAPI.resources.dll
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\de\RESTfulAPI.resources.dll
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\en\RESTfulAPI.resources.dll
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Controllers.HelloWorldApiController.de.resources
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Controllers.HelloWorldApiController.en.resources
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.csproj.GenerateResource.Cache
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\de\RESTfulAPI.resources.dll
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\en\RESTfulAPI.resources.dll
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\en-US\RESTfulAPI.resources.dll
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\en-US\RESTfulAPI.resources.dll
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\fr-FR\RESTfulAPI.resources.dll
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Views.Home.Index.fr-FR.resources
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\fr-FR\RESTfulAPI.resources.dll
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Views.Home.Index.en-US.resources
+H:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Views.Home.Index.resources
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\en-US\RESTfulAPI.resources.dll
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\fr-FR\RESTfulAPI.resources.dll
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Views.Home.Index.resources
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Views.Home.Index.en-US.resources
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Views.Home.Index.fr-FR.resources
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\en-US\RESTfulAPI.resources.dll
+N:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\fr-FR\RESTfulAPI.resources.dll
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.deps.json
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.runtimeconfig.json
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.runtimeconfig.dev.json
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.dll
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.pdb
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\de\RESTfulAPI.resources.dll
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\en\RESTfulAPI.resources.dll
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\en-US\RESTfulAPI.resources.dll
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\fr-FR\RESTfulAPI.resources.dll
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.Core.dll
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\RESTfulAPI.Core.pdb
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.csprojResolveAssemblyReference.cache
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Views.Home.Index.resources
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Controllers.HelloWorldApiController.de.resources
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Controllers.HelloWorldApiController.en.resources
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Views.Home.Index.en-US.resources
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Views.Home.Index.fr-FR.resources
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.csproj.GenerateResource.Cache
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.csproj.CoreCompileInputs.cache
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.AssemblyInfoInputs.cache
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.AssemblyInfo.cs
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\de\RESTfulAPI.resources.dll
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\en\RESTfulAPI.resources.dll
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\en-US\RESTfulAPI.resources.dll
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\fr-FR\RESTfulAPI.resources.dll
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.dll
+I:\USB STICK BACKUP\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.pdb
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\de\RESTfulAPI.resources.dll
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\en\RESTfulAPI.resources.dll
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\en-US\RESTfulAPI.resources.dll
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\bin\Debug\netcoreapp2.0\fr-FR\RESTfulAPI.resources.dll
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Views.Home.Index.resources
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Controllers.HelloWorldApiController.de.resources
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Controllers.HelloWorldApiController.en.resources
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Views.Home.Index.en-US.resources
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.Resources.Views.Home.Index.fr-FR.resources
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.csproj.GenerateResource.Cache
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\de\RESTfulAPI.resources.dll
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\en\RESTfulAPI.resources.dll
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\en-US\RESTfulAPI.resources.dll
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\fr-FR\RESTfulAPI.resources.dll
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.csprojAssemblyReference.cache
+D:\MyProjects\Development\RESTfulAPI\RESTfulAPI\obj\Debug\netcoreapp2.0\RESTfulAPI.csproj.CopyComplete
