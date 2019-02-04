@@ -140,7 +140,7 @@ Template documentation and demo pages can be found in the [`/docs`](docs) if sub
 
 ### Creator
 
-**MDavain Pablo Edwrads**
+**Davain Pablo Edwrads**
 
 - <https://soon.com>
 - <https://twitter.com/soon>
