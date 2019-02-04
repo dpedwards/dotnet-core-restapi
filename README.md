@@ -112,7 +112,6 @@ For this project you need to install .NET Core 2.1 Framework and MySQL/MariaDB o
 
 If you need some more help please feel free to message me. Happy coding! :smile:
 
---
 
 ## Usage
 
