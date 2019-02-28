@@ -179,43 +179,6 @@
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="T:RESTfulAPI.Controllers.FileUploadController">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:RESTfulAPI.Controllers.FileUploadController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.FtpSettings},Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.LinuxSettings},Microsoft.Extensions.Options.IOptions{RESTfulAPI.Core.AppSettingsLayer.WindowsSettings})">
-            <summary>
-            
-            </summary>
-            <param name="hostingEnvironment"></param>
-            <param name="ftpSettings"></param>
-            <param name="linuxSettings"></param>
-            <param name="windowsSettings"></param>
-        </member>
-        <member name="M:RESTfulAPI.Controllers.FileUploadController.UploadFilesAsync(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
-            <summary>
-            
-            </summary>
-            <param name="files"></param>
-            <returns></returns>
-        </member>
-        <member name="M:RESTfulAPI.Controllers.FileUploadController.closeRequestStreamAsync(System.IO.Stream)">
-            <summary>
-            Background worker for closing request stream
-            </summary>
-            <param name="requestStream"></param>
-            <remarks>This is the method that actually triggers the writing to the server
-            of the data in the FTP stream.  This blocks the UI thread when called synchronously.
-            </remarks>
-        </member>
-        <member name="M:RESTfulAPI.Controllers.FileUploadController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile)">
-            <summary>
-            
-            </summary>
-            <param name="file"></param>
-            <returns></returns>
-        </member>
         <member name="T:RESTfulAPI.Controllers.HomeController">
             <summary>
             
@@ -1224,6 +1187,16 @@
             <param name="databaseSettings"></param>
             <param name="hostingEnvironment"></param>
             <param name="linuxSettings"></param>
+        </member>
+        <member name="P:RESTfulAPI.Controllers.TokenController.UserName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RESTfulAPI.Controllers.TokenController.PasswordHash">
+            <summary>
+            
+            </summary>
         </member>
         <member name="M:RESTfulAPI.Controllers.TokenController.Post(RESTfulAPI.Core.EntityLayer.User)">
             <summary>

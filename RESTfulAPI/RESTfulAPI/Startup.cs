@@ -212,14 +212,7 @@ namespace RESTfulAPI
                     }
                 });
 
-                //c.SwaggerDoc("v2", new Info
-                //{
-                //    Version = "v2",
-                //    Title = "SE B2B REST API",
-                //    Description = "ASP .NET Core 2.0 Web API",
-                //    TermsOfService = "None",
-                //    Contact = new Contact() { Name = "SE Vertrieb", Email = "support@se-vertrieb.de", Url = "www.se-vertrieb.de" }
-                //});
+             
                 //c.IncludeXmlComments(GetXmlCommentsPath());
                 //options.IncludeXmlComments(GetXmlCommentsPath());
                 options.OperationFilter<AddFileParamTypesOperationFilter>();

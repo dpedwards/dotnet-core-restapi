@@ -53,8 +53,14 @@ namespace RESTfulAPI.Controllers
         }
 
 
-
+        /// <summary>
+        /// 
+        /// </summary>
         public string UserName { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
         public string PasswordHash { get; set; }
        
 
@@ -88,13 +94,7 @@ namespace RESTfulAPI.Controllers
             {
                 while (dboUserAccountData.Read())
                 {
-                        //HttpContext.Session.SetString("UserName_T", dboUserAccountData["username"].ToString().Trim());
-                        //HttpContext.Session.SetString("Password_T", dboUserAccountData["password_hash"].ToString().Trim());
-
-                        //ViewBag.UserName_T = HttpContext.Session.GetString("UserName_T");
-                        //ViewBag.Password_T = HttpContext.Session.GetString("Password_T");
-
-                        //if (auth.UserName == ViewBag.UserName_T && auth.Password == ViewBag.Password_T)
+                      
 
                         UserName = dboUserAccountData["username"].ToString().Trim();
                         PasswordHash = dboUserAccountData["password_hash"].ToString().Trim();
@@ -104,7 +104,7 @@ namespace RESTfulAPI.Controllers
                         DateTime? expire = DateTime.Now.AddMinutes(10); 
                         var tokenString = GetToken(auth.UserName, expire);
 
-                        return Json(new { auth = true, timestamp = DateTime.Now, status = HttpStatusCode.OK, client = HttpContext.Connection.RemoteIpAddress.ToString(), session = HttpContext.Session.Id.ToString(), token = tokenString, tokenExpires = expire });
+                        return Json(new { auth = true, timestamp = DateTime.Now, status = HttpStatusCode.OK, token = tokenString, tokenExpires = expire });
                     }
                 }
                 return this.Json(new { auth = false, timestamp = DateTime.Now, status = HttpStatusCode.Unauthorized, info = "JWT auth fail! Please check username and password." });

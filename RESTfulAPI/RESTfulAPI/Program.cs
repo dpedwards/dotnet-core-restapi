@@ -42,7 +42,7 @@ namespace RESTfulAPI
                         listenOptions.UseHttps(cert);
                     });
                 })
-                .UseEnvironment("Development")
+                //.UseEnvironment("Development")
                 //.UseUrls("https://localhost:5000")
                 .UseApplicationInsights()
                 .UseStartup<Startup>()
