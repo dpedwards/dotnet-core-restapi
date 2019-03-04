@@ -1,4 +1,4 @@
-# [.NET Core RESTful API with swagger API Doc based on Northwind MySQL database template](https://dpedwards.github.io/dotnet-core-restapi/)
+# [.NET Core RESTful API with swagger API Doc based on Northwind MySQL database template](https://github.com/dpedwards/dotnet-core-restapi)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/dpedwards/dotnet-core-restapi/master/LICENSE)
 [![.NET Core](https://img.shields.io/badge/dotnet%20core-%3E%3D%202.0-blue.svg)](https://dotnet.microsoft.com/download)
@@ -14,13 +14,33 @@ This Template is based on the Northwind MySQl database, an excellent tutorial sc
 [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/dare2101)
 
 
+## Pictures 
 
-[![.NET Core RESTful API live preview][2]][1]
 
-[1]: https://dpedwards.github.io/dotnet-core-restapi/
-[2]: screenshot.png (live preview)
 
-![layout examples](screenshot-layouts.png)
+Index:
+<img src="RESTfulAPI/images/NET%20Core%20RESTful%20API_Index.png" >
+
+
+Swagger API Doc Overview:
+<img src="RESTfulAPI/images/NET%20Core%20RESTful%20API_Swagger.png" >
+
+
+JWT WebService (Swagger API Doc):
+<img src="RESTfulAPI/images/NET%20Core%20RESTful%20API_Swagger2.png" >
+
+
+JWT Bearer (Swagger API Doc):
+<img src="RESTfulAPI/images/NET%20Core%20RESTful%20API_Swagger3.png" >
+
+
+API key authorization (Swagger API Doc):
+<img src="RESTfulAPI/images/NET%20Core%20RESTful%20API_Swagger4.png" >
+
+
+WebService call (Swagger API Doc):
+<img src="RRESTfulAPI/images/NET%20Core%20RESTful%20API_Swagger5.png" >
+
 
 ## Notable features
 
@@ -34,18 +54,6 @@ This Template is based on the Northwind MySQl database, an excellent tutorial sc
 - Razor Page support
 - Unit Test
 - Error logging
-
-
-## Demo 
-
-| Name                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [JWT][jwt-token-auth] | Demo App |
-
-
-Additional sample posts are available under [posts archive][year-archive] on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs).
-
-[jwt-token-auth]: https://dpedwards.github.io/dotnet-core-api/
 
 
 ## Installation
@@ -115,7 +123,7 @@ If you need some more help please feel free to message me. Happy coding!
 
 ## Usage
 
-For detailed instructions on how to configure, customize, add/migrate content, and more read the [template`s documentation](https://dpedwards.github.io/dotnet-core-restapi/docs/quick-start-guide/).
+For detailed instructions on how to configure, customize, add/migrate content, and more read the [template`s documentation](https://github.com/dpedwards/dotnet-core-restapidocs/quick-start-guide/).
 
 ---
 
