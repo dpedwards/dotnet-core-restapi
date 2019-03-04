@@ -201,7 +201,7 @@ namespace RESTfulAPI
                 options.SwaggerDoc("v1", new Info
                 {
                     Version = "v1",
-                    Title = ".NET Core 2.1 RESTful API Template with swagger Doc",
+                    Title = ".NET Core 2.1 RESTful API Template with Swagger API Doc",
                     Description = "This Template is based on the Northwind database, an excellent tutorial schema for a small-business ERP, with customers, orders, inventory, purchasing, suppliers, shipping, employees, and single-entry accounting.",
                     TermsOfService = "None",
                     Contact = new Contact()

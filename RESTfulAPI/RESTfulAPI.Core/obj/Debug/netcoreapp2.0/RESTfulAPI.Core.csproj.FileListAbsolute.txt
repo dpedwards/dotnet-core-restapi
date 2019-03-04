@@ -43,3 +43,12 @@ D:\MyWorkspace\GitHub\dotnet-core-restapi\RESTfulAPI\RESTfulAPI.Core\obj\Debug\n
 D:\MyWorkspace\GitHub\dotnet-core-restapi\RESTfulAPI\RESTfulAPI.Core\obj\Debug\netcoreapp2.0\RESTfulAPI.Core.AssemblyInfo.cs
 D:\MyWorkspace\GitHub\dotnet-core-restapi\RESTfulAPI\RESTfulAPI.Core\obj\Debug\netcoreapp2.0\RESTfulAPI.Core.dll
 D:\MyWorkspace\GitHub\dotnet-core-restapi\RESTfulAPI\RESTfulAPI.Core\obj\Debug\netcoreapp2.0\RESTfulAPI.Core.pdb
+I:\data\MyProjects\GitHub\dotnet-core-restapi\RESTfulAPI\RESTfulAPI.Core\bin\Debug\netcoreapp2.0\RESTfulAPI.Core.deps.json
+I:\data\MyProjects\GitHub\dotnet-core-restapi\RESTfulAPI\RESTfulAPI.Core\bin\Debug\netcoreapp2.0\RESTfulAPI.Core.dll
+I:\data\MyProjects\GitHub\dotnet-core-restapi\RESTfulAPI\RESTfulAPI.Core\bin\Debug\netcoreapp2.0\RESTfulAPI.Core.pdb
+I:\data\MyProjects\GitHub\dotnet-core-restapi\RESTfulAPI\RESTfulAPI.Core\obj\Debug\netcoreapp2.0\RESTfulAPI.Core.csprojAssemblyReference.cache
+I:\data\MyProjects\GitHub\dotnet-core-restapi\RESTfulAPI\RESTfulAPI.Core\obj\Debug\netcoreapp2.0\RESTfulAPI.Core.csproj.CoreCompileInputs.cache
+I:\data\MyProjects\GitHub\dotnet-core-restapi\RESTfulAPI\RESTfulAPI.Core\obj\Debug\netcoreapp2.0\RESTfulAPI.Core.AssemblyInfoInputs.cache
+I:\data\MyProjects\GitHub\dotnet-core-restapi\RESTfulAPI\RESTfulAPI.Core\obj\Debug\netcoreapp2.0\RESTfulAPI.Core.AssemblyInfo.cs
+I:\data\MyProjects\GitHub\dotnet-core-restapi\RESTfulAPI\RESTfulAPI.Core\obj\Debug\netcoreapp2.0\RESTfulAPI.Core.dll
+I:\data\MyProjects\GitHub\dotnet-core-restapi\RESTfulAPI\RESTfulAPI.Core\obj\Debug\netcoreapp2.0\RESTfulAPI.Core.pdb
