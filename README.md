@@ -39,7 +39,7 @@ API key authorization (Swagger API Doc):
 
 
 WebService call (Swagger API Doc):
-<img src="RRESTfulAPI/images/NET%20Core%20RESTful%20API_Swagger5.png" >
+<img src="RESTfulAPI/images/NET%20Core%20RESTful%20API_Swagger5.png" >
 
 
 ## Notable features
