@@ -196,9 +196,9 @@ Template documentation and demo pages can be found in the [`/docs`](docs) if sub
 
 ## License
 
-The MIT License (MIT)
+MIT License
 
-Copyright (c) 2019 Davain Pablo Edwards and contributors
+Copyright (c) 2019 Davain Pablo Edwards
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -217,5 +217,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
