@@ -7,6 +7,19 @@
 
 This Template is based on the Northwind MySQl database, an excellent tutorial schema for a small-business ERP, with customers, orders, inventory, purchasing, suppliers, shipping, employees, and single-entry accounting.
 
+## Notable features
+
+- OAuth 2.0 JWT bearer authentication
+- .pfx certificate support
+- swagger API Doc 
+- CRUD operations
+- File up-/download
+- Windows & Linux platform support
+- MySQL / MS SQL support 
+- Razor Page support
+- Unit Test
+- Error logging
+
 :sparkles: See what`s new in the [CHANGELOG](CHANGELOG.md).
 
 **If you enjoy this template, please consider [supporting me](https://www.paypal.me/dare2101) for developing and maintaining it.**
@@ -40,20 +53,6 @@ API key authorization (Swagger API Doc):
 
 WebService call (Swagger API Doc):
 <img src="RESTfulAPI/images/NET%20Core%20RESTful%20API_Swagger5.png" >
-
-
-## Notable features
-
-- OAuth 2.0 JWT bearer authentication
-- .pfx certificate support
-- swagger API Doc 
-- CRUD operations
-- File up-/download
-- Windows & Linux platform support
-- MySQL / MS SQL support 
-- Razor Page support
-- Unit Test
-- Error logging
 
 
 ## Installation
@@ -153,8 +152,12 @@ Template documentation and demo pages can be found in the [`/docs`](docs) if sub
 - <https://twitter.com/soon>
 - <https://github.com/dpedwards>
 
+### Environment requirements
 
-### Other:
+- [Visual Studio](https://visualstudio.microsoft.com/de/downloads/)
+- [MySQL](https://www.mysql.com/de/downloads/) or [MariaDB](https://mariadb.com/de/downloads/)
+
+### Project packages requirements:
 
 - [Couchbase.Extensions.Session](https://github.com/couchbaselabs/Couchbase.Extensions)
 - [Microsoft.ApplicationInsights.AspNetCore](https://docs.microsoft.com/de-de/azure/azure-monitor/app/app-insights-overview)
