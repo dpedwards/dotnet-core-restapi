@@ -20,8 +20,6 @@ This Template is based on the Northwind MySQl database, an excellent tutorial sc
 - Unit Test
 - Error logging
 
-:sparkles: See what`s new in the [CHANGELOG](CHANGELOG.md).
-
 **If you enjoy this template, please consider [supporting me](https://www.paypal.me/dare2101) for developing and maintaining it.**
 
 [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/dare2101)
