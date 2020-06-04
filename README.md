@@ -146,8 +146,6 @@ Template documentation and demo pages can be found in the [`/docs`](docs) if sub
 
 **Davain Pablo Edwards**
 
-- <https://soon.com>
-- <https://twitter.com/soon>
 - <https://github.com/dpedwards>
 
 ### Environment requirements
