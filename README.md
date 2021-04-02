@@ -3,7 +3,6 @@
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/dpedwards/dotnet-core-restapi/master/LICENSE)
 [![.NET Core](https://img.shields.io/badge/dotnet%20core-%3E%3D%202.0-blue.svg)](https://dotnet.microsoft.com/download)
 [![swagger](https://img.shields.io/badge/swagger-lightgreen.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/dare2101)
 
 This Template is based on the Northwind MySQl database, an excellent tutorial schema for a small-business ERP, with customers, orders, inventory, purchasing, suppliers, shipping, employees, and single-entry accounting.
 
@@ -20,13 +19,7 @@ This Template is based on the Northwind MySQl database, an excellent tutorial sc
 - Unit Test
 - Error logging
 
-**If you enjoy this template, please consider [supporting me](https://www.paypal.me/dare2101) for developing and maintaining it.**
-
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/dare2101)
-
-
 ## Pictures 
-
 
 
 Index:
@@ -123,10 +116,6 @@ If you need some more help please feel free to message me. Happy coding!
 For detailed instructions on how to configure, customize, add/migrate content, and more read the [template`s documentation](https://github.com/dpedwards/dotnet-core-restapidocs/quick-start-guide/).
 
 ---
-
-## Contributing
-
-Having trouble working with the template? Found a typo in the documentation? Interested in adding a feature or [fixing a bug](https://github.com/dpedwards/dotnet-core-restapi/issues)? Then by all means [submit an issue](https://github.com/dpedwards/dotnet-core-restapi/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
 
 ### Pull Requests
 
